@@ -6,9 +6,8 @@
     "pages/order/order",
     "pages/template/header",
     "pages/money/money",
-    "pages/line_detail/line_detail"
-  
-
+    "pages/line_detail/line_detail",
+    "pages/shop/shop"
 
   ],
   "window": {
@@ -36,6 +35,12 @@
         "iconPath": "./images/my-order.png",
         "selectedIconPath": "./images/my-order-active.png"
       },
+        {
+          "pagePath": "pages/shop/shop",
+          "text": "商城",
+          "iconPath": "./images/my-order.png",
+          "selectedIconPath": "./images/my-order-active.png"
+        },
       {
         "pagePath": "pages/money/money",
         "text": "财富",
