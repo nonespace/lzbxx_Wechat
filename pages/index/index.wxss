@@ -1,0 +1,57 @@
+@import "../template/header.wxss";
+/**{
+  
+}*/
+page{
+  background: #F7F7FA;
+  font-family: "楷体";
+   box-sizing: border-box;
+   
+}
+.func_list{
+  height: 212px;
+  width: 100%;
+ 
+}
+.func_list .item{
+  height: 100px;
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  background: #ccc;
+  padding-top: 10px;
+}
+.func_list .item view{
+  font-size: 14px;
+  font-family: "楷体"
+}
+
+
+.func_list .item image{
+  height:60px;
+  width: 60px;
+}
+
+.recommend_list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px 10px ;
+
+}
+.recommend_list .recommend_item{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5px ;
+  height: 210px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.recommend_list .recommend_item image{
+  height: 150px;
+  width: 100%;
+}
+.recommend_list .recommend_item view{
+  font-size:13px;
+  height:25px;
+  padding: 2px 0px;
+  }

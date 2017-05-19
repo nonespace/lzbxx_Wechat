@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.wxml": "wxml",
+        "*.wxss": "css"
+    }
+}
+
+ssh-keygen -t rsa -C "console_log@163.com"

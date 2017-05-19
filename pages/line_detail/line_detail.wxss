@@ -1,0 +1,10 @@
+/* pages/line_detail/line_detail.wxss */
+page{
+    height: 100%;
+    width: 100%;
+}
+
+.slide-item,.slide-image{
+    height: 150px;
+    width: 100%;
+}

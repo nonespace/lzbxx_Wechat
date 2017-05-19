@@ -1,0 +1,41 @@
+@import "../template/header.wxss";
+
+.header{
+ height: 140px;
+ display: flex;
+ padding: 0px 10px;
+ background:#f40;
+ position: relative;
+}
+.header .avatar{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  border-radius: 50%;
+  transform: scale(0.8) translateY(-50%) translateX(-50%);
+  height: 100px;
+   width: 100px;
+}
+
+.list{
+  padding: 1px 5px;
+
+}
+.list .weui-cell{
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+}
+
+
+.list_header{
+  width: 44px;
+  height: 44px;
+  transform: scale(0.6);
+}
+.list_tail{
+  position: absolute;
+  right: 0px;
+  transform: scale(0.4)
+}

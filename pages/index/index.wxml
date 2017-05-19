@@ -1,0 +1,23 @@
+<view class="classname">
+  <include src="../../pages/template/header"/>
+</view>
+
+
+<view class="func_list">
+  <view  wx:key="item"  class="item"  wx:for="{{columnList}}" url="{{url}}" data- >
+    <image src='../../images/{{item.sort}}.png' />
+    <view>{{item.name}}</view>
+  </view>
+</view> 
+
+<view class="recommend_list">
+
+   <view class="recommend_item" bindtap="line_detail"  wx:key="" wx:for="{{recommend_list}}" data-id="{{item.id}}">
+      <image src="{{item.cover_pic}}"/>
+       <view style="font-size:13px;height:25px">{{item.name}}</view>
+      <view style="font-size:13px;height:25px;color:#1296DB">{{item.departure}}
+        <text style="float:right;color:orange">{{item.min_price}}<text style="font-size:16px">起</text></text>
+      </view>
+  </view>
+
+</view>

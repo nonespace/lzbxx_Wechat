@@ -1,0 +1,15 @@
+<view class="person_message">
+<include src="../../pages/template/header"/>
+  <view class="list">
+    <navigator  wx:key="" wx:for="{{list}}" url="{{item.url}}"  class="weui-cell ">
+        <view class="weui-cell__hd">
+          <image src="{{item.img}}"  class="list_header "  />
+        </view>
+        <view class="mui-navigate-right">
+        {{item.name}}
+        </view>
+        <image src="../../images/right.png" class="list_header list_tail"/>
+    </navigator>
+   </view>
+</view>
+

@@ -1,0 +1,13 @@
+.header{
+ height: 100px;
+ display: flex;
+ padding: 0px 10px;
+ background:#f40;
+ position: relative;
+}
+.header .avatar{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  transform: scale(0.8)
+}

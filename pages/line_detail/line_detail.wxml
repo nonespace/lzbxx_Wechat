@@ -1,0 +1,18 @@
+
+<view style="">
+    <swiper indicator-dots="true" circular="true" autoplay="true" autoplay="true"  interval="2000">
+    <block >
+        <swiper-item>
+            <image src="http://u1.img.mobile.sina.cn/public/files/image/640x172_img5900ada55a074.png" class="slide-image"/>
+        </swiper-item>
+         <swiper-item>
+            <image src="http://u1.img.mobile.sina.cn/public/files/image/640x172_img5900ada55a074.png" class="slide-image"/>
+        </swiper-item>
+         <swiper-item>
+            <image src="http://u1.img.mobile.sina.cn/public/files/image/640x172_img5900ada55a074.png" class="slide-image"/>
+        </swiper-item>
+
+    </block>
+</swiper>
+</view>
+

@@ -1,0 +1,16 @@
+<view class="header">
+<!--<image src="http://file1.lydlr.com/c/300/300/tour/2016/0826/00945877530.jpg" />-->
+
+
+    <view class="tou" style="height:100px">
+      <image src="{{imgUrl}}" class="avatar"/>
+    </view>
+
+    <view class="message">
+      <text>{{}}</text>
+      <text>{{}}</text>
+  </view>
+
+
+
+</view>
